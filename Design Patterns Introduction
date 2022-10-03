@@ -1,0 +1,36 @@
+Design Patterns Introduction ......
+
+
+- Design Patterns are reusable solutions to common problems in software design.
+- They are templates designed to help you write code that is easy to understand and reuse.
+- They also help you create loosely coupled code so that you can change or replace components in your code without too much of a hassle.
+
+Eg.
+
+1) MVC (Model View Controller)
+- one of the building blocks of Cocoa
+- it classifies objects according to their general role in your app
+- encourages clean separation of code based on role
+
+  MODEL :
+  - holds application data
+  - defines how to manipulate it
+  
+  VIEW :
+   - visual representation of the model
+   - also the controls the user can interact with (UIViews and subclasses)
+   
+   CONTROLLER :
+   - mediator that coordinates all the work.
+   - it accesses the data from the model and displays it with views
+   - listens to events and manipulates data ad necessary.
+   - Eg.  ViewController
+   
+- So, the Model notifies the Controller of any data changes
+- The controller updates the data in the views
+- The view can then notify the controller of actions the user performed 
+- The controller will either update the Model if necessary or retrieve any requested data.
+
+Why do we need 3 parts?
+- it comes down to code separation and reusability
+the idea is to separate the view completely from the model, so that if the view doesnt rely on the specific implentation of the model, then it can be reused with a different model to present some other data.
