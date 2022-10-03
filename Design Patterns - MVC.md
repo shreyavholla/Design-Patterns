@@ -1,7 +1,7 @@
 # MVC - Model View Controller
 
 
-![Alt text](/Design-Patterns/Screenshot 2022-10-03 at 2.45.45 PM.png)
+[![Screenshot-2022-10-03-at-2-45-45-PM.png](https://i.postimg.cc/g0VttXsZ/Screenshot-2022-10-03-at-2-45-45-PM.png)](https://postimg.cc/Y4SxhSJr)
 
 
 - The model is usually a struct or a class. (user - model)
