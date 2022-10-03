@@ -1,8 +1,8 @@
 # MVC - Model View Controller
 
 
+![Alt text](Design-Patterns/Screenshot 2022-10-03 at 2.45.45 PM.png)
 
-![Screenshot 2022-10-03 at 2.45.45 PM](/Users/admin/Desktop/Screenshot 2022-10-03 at 2.45.45 PM.png)
 
 - The model is usually a struct or a class. (user - model)
 - The view is what you can see in your device (buttons, textfields, etc..)
